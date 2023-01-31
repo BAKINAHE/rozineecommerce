@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mon site e-commerce</title>
+  <style>
+    body {
+      background-color: #f2f2f2;
+      font-family: Arial, sans-serif;
+      color: #333;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .product {
+      width: 20%;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .product img {
+      width: 100%;
+    }
+
+    .product h2 {
+      margin: 10px 0;
+    }
+
+    .product p {
+      color: #999;
+    }
+
+    .product .price {
+      font-weight: bold;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Mon site e-commerce</h1>
+    </div>
+  </header>
+  <main class="container">
+    <h2>Nos produits</h2>
+    <div class="products">
+      <div class="product">
+        <img src="product1.jpg" alt="Product 1">
+        <h2>Produit 1</h2>
+        <p>Description du produit 1</p>
+        <p class="price">Prix: 10€</p>
+      </div>
+      <div class="product">
+        <img src="product2.jpg" alt="Product 2">
+        <h2>Produit 2</h2>
+        <p>Description du produit 2</p>
+        <p class="price">Prix: 20€</p>
+      </div>
+      <div class="product">
+        <img src="product3.jpg" alt="Product 3">
+        <h2>Produit 3</h2>
+        <p>Description du produit 3</p>
+        <p class="price">Prix: 30€</p>
+      </div>
+      <!-- Ajoutez autant de produits que vous voulez -->
+    </div>
+  </main>
+</body>
+</html>
